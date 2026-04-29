@@ -1,0 +1,15 @@
+.venv/
+_scratch/
+.vscode/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+data/00_raw/
+
+*.xlsx
+*.xls
+*.xlsm
+*.pdf
