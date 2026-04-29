@@ -19,6 +19,10 @@
     - 来日外国人
     - 永住者等
 
+公開レポート:
+
+- Notion: https://serious-rake-c2f.notion.site/35148c82487d805d8c17ef5c447aa5e4
+
 ## ディレクトリ構成
 
 ```text
