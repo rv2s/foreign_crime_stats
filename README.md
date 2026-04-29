@@ -92,6 +92,8 @@ data/06_research/<theme>/
 
 - `scripts/06_research/` に研究用スクリプトを集約しています。
 - `00_raw/999_reseach/` には、`06_research` 系テーマで参照する raw ファイルを集約しています。
+- raw データの原本ファイルは GitHub には含めず、主に次の Google Drive フォルダで管理しています。  
+  https://drive.google.com/drive/folders/1RLU_Twx7BUgQOmv9S2lik5Wb8byWMs6Y?usp=drive_link
 
 ## データ処理の流れ
 
@@ -293,15 +295,18 @@ Python 3.11 系を想定しています。
 
 - pandas
 - numpy
+- matplotlib
+- seaborn
 - openpyxl
 - xlrd
+- pypdf
 
 例:
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
-pip install pandas numpy openpyxl xlrd
+pip install pandas numpy matplotlib seaborn openpyxl xlrd pypdf
 ```
 
 ## 注意点
